@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anabelle Chang's COS333 Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <main>
+    <h1>Welcome to Registrar Lite!</h1>
+    <p>
+        The latest and greatest in responsive interfaces to
+        <a class="link" href="https://registrar.princeton.edu/course-offerings/">
+            Course Offerings!</a><br/><br/>
+        Just type in a 3-letter department code like COS and optionally a course number,
+        like COS/333 and instantly you'll be transported to another page with all the courses you could ask for.
+    </p>
+
+    <form action="#">
+        <div class="form-group">
+            <label for="querycode">Enter a department code, optionally with a number:</label>
+            <input type="text" class="form-control" id="querycode" placeholder="dep[/num]">
+        </div>
+        <button onclick="docount()" type="button" class="btn btn-default" id="count">Count</button>
+        <button onclick="doclear()" type="button" class="btn btn-default" id="clear">Clear</button>
+        <button onclick="dosubmit()" type="submit" class="btn btn-default">Submit</button>
+    </form>
+    </main>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+    function docount() {
+        var query = document.getElementById("querycode").value;
+        if (query)
+            window.location.href = "/count/" + query;
+        else
+            window.location.href = "/count"
+    }
+    function doclear() {
+        var query = document.getElementById("querycode").value;
+        if (query)
+            window.location.href = "/clear/" + query;
+        else
+            window.location.href = "/clear"
+    }
+    function dosubmit() {
+        var query = document.getElementById("querycode").value;
+        window.location.href = "/" + query;
+    }
+</script>
+</html>
