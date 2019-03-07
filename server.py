@@ -1,4 +1,4 @@
-import SocketServer, SimpleHTTPServer, requests, sqlite3, sys
+import SocketServer, SimpleHTTPServer, requests, sqlite3, sys, web
 
 class Reply(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
