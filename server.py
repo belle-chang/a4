@@ -1,8 +1,11 @@
-import SocketServer, SimpleHTTPServer, requests, sqlite3
+import SocketServer, SimpleHTTPServer, requests, sqlite3, sys
 
 class Reply(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
     def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type','text/html')
+        self.end_headers()
 
         database = "reg.db"
         conn = sqlite3.connect(database)
@@ -123,7 +126,7 @@ def main():
     # Read OIT feed before starting the server.
     oit = 'http://etcweb.princeton.edu/webfeeds/courseofferings/?fmt=json&term=current&subject=all'
     all = get_OIT(oit)
-    print("server is listening on port 8001")
-    SocketServer.ForkingTCPServer(('', 8001), Reply).serve_forever()
+    print("server is listening on port " + sys.argv[1])
+    SocketServer.ForkingTCPServer(('', int(sys.argv[1])), Reply).serve_forever()
 
 main()
