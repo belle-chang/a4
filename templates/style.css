@@ -1,0 +1,32 @@
+main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*.container{*/
+    /*text-decoration: none;*/
+/*}*/
+
+
+/*#count.hover {*/
+    /*background-color: orange !important;*/
+    /*border-color: orange !important;*/
+    /*color: black !important;*/
+/*}*/
+/*#count:hover {*/
+    /*color: aqua;*/
+/*}*/
+
+a.link:hover {
+    text-decoration: underline;
+    color: coral;
+}
+
+#count:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}

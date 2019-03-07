@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2c7aee-4060-4322-8bc7-1b030322cafa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-    </list>
+    <list default="true" id="8b2c7aee-4060-4322-8bc7-1b030322cafa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" selection-start-column="63" selection-end-column="66" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -96,7 +94,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551932983012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551933560683" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7 (a3)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -128,12 +126,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551761242297</updated>
       <workItem from="1551761244385" duration="11965000" />
-      <workItem from="1551912872593" duration="11219000" />
+      <workItem from="1551912872593" duration="11648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23184000" />
+    <option name="totallyTimeSpent" value="23613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="271" y="23" width="1169" height="877" extended-state="0" />
@@ -198,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="63" selection-end-column="66" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
