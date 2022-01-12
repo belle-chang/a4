@@ -3,7 +3,7 @@ chardet==3.0.4
 docopt==0.6.2
 enum34==1.1.6
 idna==2.8
-pipenv==2018.11.26
+pipenv==2022.1.8
 pipreqs==0.4.9
 requests==2.21.0
 typing==3.6.6
